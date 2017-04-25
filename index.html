@@ -20,7 +20,7 @@
 <meta name="theme-color" content="#ffffff">
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css" integrity="sha256-itWEYdFWzZPBG78bJOOiQIn06QCgN/F0wMDcC4nOhxY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css" integrity="sha256-itWEYdFWzZPBG78bJOOiQIn06QCgN/F0wMDcC4nOhxY=" crossorigin="anonymous" />
 
 <link rel="stylesheet" href="css/stylesheet.css">
 
@@ -28,40 +28,32 @@
 <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,300|Droid+Serif:400,300" rel="stylesheet" type="text/css">
 <link href="http://addtocalendar.com/atc/1.5/atc-style-menu-wb.css" rel="stylesheet" type="text/css">
 <script src="http://addtocalendar.com/atc/1.5/atc.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
 </head>
 <body>
   <div class="wrapper">
 
-    <div class="top-bar">
-  <div class="top-bar-title">
-    <span data-responsive-toggle="responsive-menu" data-hide-for="medium" style="display: none;">
-      <button class="menu-icon dark" type="button" data-toggle=""></button>
-    </span>
-    <strong>Site Title</strong>
-  </div>
-  <div id="responsive-menu" style="display: block;">
-    <div class="top-bar-left">
-      <ul class="dropdown menu" data-dropdown-menu="gg92zi-dropdown-menu" role="menubar">
-        <li role="menuitem" class="is-dropdown-submenu-parent opens-right" aria-haspopup="true" aria-label="One" data-is-click="false">
-          <a href="#">One</a>
-          <ul class="menu vertical submenu is-dropdown-submenu first-sub" data-submenu="" role="menu">
-            <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="#">One</a></li>
-            <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="#">Two</a></li>
-            <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="#">Three</a></li>
-          </ul>
-        </li>
-        <li role="menuitem"><a href="#">Two</a></li>
-        <li role="menuitem"><a href="#">Three</a></li>
-      </ul>
-    </div>
-    <div class="top-bar-right">
-      <ul class="menu">
-        <li><input type="search" placeholder="Search"></li>
-        <li><button type="button" class="button">Search</button></li>
-      </ul>
-    </div>
+    <div class="title-bar" data-responsive-toggle="example-animated-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+<div class="top-bar" id="example-animated-menu" data-animate="hinge-in-from-top spin-out">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text">Site Title</li>
+      <li>
+        <a href="#">One</a>
+        <ul class="menu vertical">
+          <li><a href="#">One</a></li>
+          <li><a href="#">Two</a></li>
+          <li><a href="#">Three</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Two</a></li>
+      <li><a href="#">Three</a></li>
+    </ul>
   </div>
 </div>
 
@@ -99,7 +91,7 @@
     </section>
   </nav>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js" integrity="sha256-Nd2xznOkrE9HkrAMi4xWy/hXkQraXioBg9iYsBrcFrs=" crossorigin="anonymous"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js" integrity="sha256-Nd2xznOkrE9HkrAMi4xWy/hXkQraXioBg9iYsBrcFrs=" crossorigin="anonymous"></script>
 
 </body>
