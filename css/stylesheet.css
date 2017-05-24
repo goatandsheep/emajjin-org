@@ -1,13 +1,26 @@
+.navy {
+  /*background-color: #001b53;*/
+  /*color: white;*/
+}
+.orange {
+  background-color: #ffd390;
+  color: black;
+}
+
+a {
+  color: inherit;
+}
+
 .custom-wrapper {
-          background-color: #ffd390;
-          margin-bottom: 1em;
-          -webkit-font-smoothing: antialiased;
-          height: 2.1em;
-          overflow: hidden;
-          -webkit-transition: height 0.5s;
-          -moz-transition: height 0.5s;
-          -ms-transition: height 0.5s;
-          transition: height 0.5s;
+    /*background-color: #ffd390;*/
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    -webkit-font-smoothing: antialiased;
+    height: 2.1em;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    transition: height 0.5s;
 }
 
 .custom-wrapper.open {
@@ -23,13 +36,12 @@
     height: 34px;
     display: block;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 0.5em;
+    right: 0.5em;
     display: none;
 }
 
 .custom-toggle .bar {
-    background-color: #777;
     display: block;
     width: 20px;
     height: 2px;
@@ -65,13 +77,21 @@
 }
 
 @media (max-width: 47.999em) {
+  .custom-wrapper {
 
-    .custom-menu-3 {
-        text-align: left;
-    }
+    overflow: hidden;
+  }
 
-    .custom-toggle {
-        display: block;
-    }
+  .custom-menu-3 {
+    text-align: left;
+  }
+
+  .custom-toggle {
+    display: block;
+  }
+
+  .bar {    
+    color: black
+  }
 
 }
