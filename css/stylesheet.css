@@ -1,15 +1,43 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Quando', serif;
+}
+
+/* Sticky header: https://css-tricks.com/couple-takes-sticky-footer/ */
+
+#content {
+  flex: 1 0 auto;
+}
+
 .navy {
   background-color: #004fad;
   color: white;
 }
+.navy a:hover {
+  background-color: #042073;
+}
+
 .orange {
-  background-color: #ffd390;
+  /*background-color: #ffd390;*/
+  background-color: #ffad66;
   color: black;
+}
+.orange a:hover {
+  background-color: #ff7905;
+
 }
 
 a {
   color: inherit;
 }
+
+/* overwrite pure.css */
 
 .custom-wrapper {
     /*background-color: #ffd390;*/
@@ -76,6 +104,34 @@ a {
     transform: rotate(-45deg);
 }
 
+.pure-u-1 {
+  background-color: inherit;
+}
+
+.pure-menu {
+  background-color: inherit;
+}
+
+.pure-menu-list {
+  background-color: inherit;
+}
+
+.pure-menu-link {
+  color: inherit;
+}
+
+.pure-menu-link:hover {
+  color: inherit;
+}
+
+.pure-menu-item {
+  background-color: inherit;
+}
+
+.pure-menu-children {
+  background-color: inherit;
+}
+
 @media (max-width: 47.999em) {
   .custom-wrapper {
 
@@ -100,7 +156,15 @@ a {
   text-align: center;
 }
 
+.pure-menu-heading {
+  background-color: inherit;
+  color: inherit;
+}
+
+/* end of pure.css overwrite */
+
 footer {
+
   padding-top: 3em;
   padding-bottom: 3em;
 }
