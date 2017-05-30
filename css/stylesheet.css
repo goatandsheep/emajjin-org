@@ -6,7 +6,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  font-family: 'Quando', serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 /* Sticky header: https://css-tricks.com/couple-takes-sticky-footer/ */
@@ -139,7 +139,11 @@ a {
 
 .pure-g {
   text-align: center;
-  font-family: inherit;
+}
+
+.pure-g [class*=pure-u] {
+  /*font-family: inherit;*/
+  /*font-family: 'Quando', serif;*/
 }
 
 @media (max-width: 47.999em) {
