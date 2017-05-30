@@ -132,6 +132,16 @@ a {
   background-color: inherit;
 }
 
+.pure-menu-heading {
+  background-color: inherit;
+  color: inherit;
+}
+
+.pure-g {
+  text-align: center;
+  font-family: inherit;
+}
+
 @media (max-width: 47.999em) {
   .custom-wrapper {
 
@@ -151,14 +161,6 @@ a {
     background-color: white;
   }
 
-}
-.pure-g {
-  text-align: center;
-}
-
-.pure-menu-heading {
-  background-color: inherit;
-  color: inherit;
 }
 
 /* end of pure.css overwrite */
