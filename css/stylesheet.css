@@ -6,7 +6,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', serif;
 }
 
 /* Sticky header: https://css-tricks.com/couple-takes-sticky-footer/ */
@@ -24,12 +24,13 @@ body {
 }
 
 .orange {
-  /*background-color: #ffd390;*/
-  background-color: #ffad66;
+  background-color: #ff8533;
+  /*background-color: #ffad66;*/
   color: black;
 }
 .orange a:hover {
-  background-color: #ff7905;
+  /*background-color: #ff7905;*/
+  background-color: #e65c00;
 
 }
 
@@ -143,7 +144,11 @@ a {
 
 .pure-g [class*=pure-u] {
   /*font-family: inherit;*/
-  /*font-family: 'Quando', serif;*/
+  font-family: 'Roboto', serif;
+}
+
+#header-logo {
+  display: inline-block;
 }
 
 @media (max-width: 47.999em) {
@@ -178,4 +183,8 @@ footer {
 .socials {
   text-align: center;
   font-size: 2.5em;
+}
+
+b {
+  font-family: 'Roboto Slab', serif;
 }
