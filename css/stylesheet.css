@@ -10,7 +10,7 @@ body {
   overflow: scroll;
 }
 
-/* Sticky header: https://css-tricks.com/couple-takes-sticky-footer/ */
+/* Sticky footer: https://css-tricks.com/couple-takes-sticky-footer/ */
 
 #content {
   flex: 1 0 auto;
