@@ -54,6 +54,7 @@ a {
     -moz-transition: height 0.5s;
     -ms-transition: height 0.5s;
     transition: height 0.5s;
+    flex: 1 0 auto;
 }
 
 .custom-wrapper.open {
@@ -156,7 +157,6 @@ a {
   text-decoration: none;
   padding-left: 0.5em;
   display: inline-block;
-  float: right;
 }
 
 @media (max-width: 47.999em) {
@@ -178,7 +178,7 @@ a {
     background-color: white;
   }
   .custom-brand {
-    float: none;
+    display: inline-block;
   }
 
 }
