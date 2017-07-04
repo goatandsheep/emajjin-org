@@ -6,7 +6,7 @@
       [].forEach.call(
           document.getElementById('menu').querySelectorAll('.custom-can-transform'),
           function(el){
-              el.classList.toggle('pure-menu-horizontal');
+              el.classList.toggle('pure-menu-horizontal')
           }
       );
   };
@@ -15,25 +15,25 @@
       // set timeout so that the panel has a chance to roll up
       // before the menu switches states
       if (menu.classList.contains('open')) {
-          setTimeout(toggleHorizontal, 500);
+          setTimeout(toggleHorizontal, 500)
       }
       else {
-          toggleHorizontal();
+          toggleHorizontal()
       }
       menu.classList.toggle('open');
-      document.getElementById('toggle').classList.toggle('x');
+      document.getElementById('toggle').classList.toggle('x')
   };
 
   function closeMenu() {
       if (menu.classList.contains('open')) {
-          toggleMenu();
+          toggleMenu()
       }
   }
 
   document.getElementById('toggle').addEventListener('click', function (e) {
       toggleMenu();
-      e.preventDefault();
-  });
+      e.preventDefault()
+  })
 
-  window.addEventListener(WINDOW_CHANGE_EVENT, closeMenu);
-  })(this, this.document);
+  window.addEventListener(WINDOW_CHANGE_EVENT, closeMenu)
+  })(this, this.document)

@@ -180,6 +180,12 @@ a {
   .custom-brand {
     display: inline-block;
   }
+  .slick-carousel {
+    max-height: 30%;
+  }
+  .slick-slide {
+    height: 30%;
+  }
 
 }
 
@@ -203,4 +209,20 @@ footer {
 
 b {
   font-family: 'Roboto Slab', serif;
+}
+.slick-carousel {
+  max-height: 60vh;
+}
+.slick-slide {
+  height: 60vh;
+}
+.slick-slide > img {
+  width: 100%;
+  /*top: -50%;
+  position: relative;*/
+
+}
+
+@media (max-width: 44em) {
+
 }
