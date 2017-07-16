@@ -1,5 +1,5 @@
 $('.slick-carousel').slick({
-  // autoplay: true,
+  autoplay: true,
   autoplaySpeed: 1500,
   dots: true,
   slidesToShow: 1

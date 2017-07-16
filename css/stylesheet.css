@@ -153,10 +153,10 @@ a {
 }
 
 .custom-brand {
-  font-size: 1.5em;
   text-decoration: none;
   padding-left: 0.5em;
-  display: inline-block;
+  /*display: inline-block;*/
+  display: inline;
 }
 
 @media (max-width: 47.999em) {
@@ -166,7 +166,7 @@ a {
   }
 
   .custom-menu-3 {
-    text-align: left;
+    text-align: center;
   }
 
   .custom-toggle {
@@ -193,7 +193,15 @@ a {
 
 
 #header-logo {
-  display: inline-block;
+  font-size: 1.25em;
+  display : flex;
+  align-items : center;
+  margin-left: 10px;
+  text-decoration: none;
+  vertical-align: top;
+  /*line-height: 1em;*/
+  position: relative;
+  top:0;
 }
 
 footer {
@@ -214,12 +222,12 @@ b {
   max-height: 60vh;
 }
 .slick-slide {
-  height: 60vh;
+  max-height: 60vh;
 }
 .slick-slide > img {
   width: 100%;
-  /*top: -50%;
-  position: relative;*/
+  position: relative;
+  bottom: 50%;
 
 }
 
