@@ -181,7 +181,7 @@ a {
     display: inline-block;
   }
   .slick-carousel {
-    max-height: 30%;
+    height: 30%;
   }
   .slick-slide {
     height: 30%;
@@ -219,16 +219,14 @@ b {
   font-family: 'Roboto Slab', serif;
 }
 .slick-carousel {
-  max-height: 60vh;
+  height: 60vh;
 }
 .slick-slide {
-  max-height: 60vh;
-}
-.slick-slide > img {
-  width: 100%;
-  position: relative;
-  bottom: -50%;
-
+  height: 60vh;
+  background: url("https://static1.squarespace.com/static/555bea73e4b051f7c69a9fe5/t/565763aae4b0c377c454316b/1448567722514/Landing_Hi_Res.jpeg");
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 44em) {
