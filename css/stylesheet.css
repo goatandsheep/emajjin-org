@@ -223,10 +223,16 @@ b {
 }
 .slick-slide {
   height: 60vh;
-  background: url("https://static1.squarespace.com/static/555bea73e4b051f7c69a9fe5/t/565763aae4b0c377c454316b/1448567722514/Landing_Hi_Res.jpeg");
+  /* height: 100%; */
+  /* width: 100%; */
+  /* background-attachment: fixed; */
   background-size: cover;
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
+}
+.caption {
+  font-size: 10px;
+  text-align: center;
 }
 
 @media (max-width: 44em) {
