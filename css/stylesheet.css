@@ -191,6 +191,14 @@ a {
 
 /* end of pure.css overwrite */
 
+.img-center {
+  display: block;
+  margin: auto;
+}
+.img-fit {
+  width: 100%;
+  max-width: 600px;
+}
 
 #header-logo {
   font-size: 1.25em;
