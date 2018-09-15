@@ -114,6 +114,12 @@ a {
   background-color: inherit;
 }
 
+.sponsor {
+  margin: auto;
+}
+.sponsor .pure-img {
+  width: 100%;
+}
 .pure-menu {
   background-color: inherit;
 }
