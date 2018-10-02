@@ -1,0 +1,2 @@
+User-agent: *
+Redirect 301 /index.php /index.html
