@@ -5,4 +5,5 @@ This website is meant to be a marketing site for the Emajjin Children's Charity.
 ## Deployment
 
 * install maxvanderschee.web-accessibility in VSCode
+* `npm install`
 * `surge`
