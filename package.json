@@ -1,0 +1,24 @@
+{
+  "name": "emajjin-org",
+  "version": "2.3.0",
+  "description": "Emajjin website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goatandsheep/emajjin-org.git"
+  },
+  "author": "Kemal Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goatandsheep/emajjin-org/issues"
+  },
+  "homepage": "https://github.com/goatandsheep/emajjin-org#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-google": "^0.11.0",
+    "eslint-plugin-html": "^5.0.0"
+  }
+}
