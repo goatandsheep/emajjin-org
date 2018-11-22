@@ -1,6 +1,3 @@
 language: node_js
 after_success:
-- find . -type d \( -path "./.*" -o -path "./node_modules" \)
-    -prune -o -name "*" -print
-      -exec curl --ftp-create-dirs
-        -T {} sftp://${SFTP_USER}:${SFTP_PASSWORD}@old.emajjin.org/test/ \;
+- find . -type d \( -path "./.*" -o -path "./node_modules" \) -prune -o -name "*" -print -exec curl --ftp-create-dirs -T {} ftp://${SFTP_USER}:${SFTP_PASSWORD}@old.emajjin.org/test/ \;
