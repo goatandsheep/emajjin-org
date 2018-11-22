@@ -1,4 +1,4 @@
 after_success:
 - curl --ftp-create-dirs
        -T filename
-       sftp://${SFTP_USER}:${SFTP_PASSWORD}@old.emajjin.org/directory/filename
+       sftp://${SFTP_USER}:${SFTP_PASSWORD}@old.emajjin.org/test/
